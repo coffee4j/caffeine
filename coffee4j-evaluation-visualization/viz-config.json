@@ -1,0 +1,93 @@
+{
+  "metrics": {
+    "HasConstraints": {
+      "label": "Is constrained?"
+    },
+    "NumberOfParameters": {
+      "label": "Number of parameters"
+    },
+    "TotalPossibleCombinations": {
+      "label": "Number of possible combinations"
+    },
+    "NumberOfConstraints": {
+      "label": "Number of constraints"
+    },
+    "NumberOfFaults": {
+      "label": "Number of faults"
+    },
+    "SafeValue": {
+      "label": "Satisfies the Safe-Value assumption"
+    },
+    "Strength": {
+      "label": "Strength"
+    },
+    "ExecutionTime": {
+      "label": "Execution time (in ms)"
+    },
+    "NumberOfResults": {
+      "label": "Number of results"
+    },
+    "NumberOfTestCases": {
+      "label": "Number of test cases"
+    },
+    "NumberOfUniqueTestCases": {
+      "label": "Number of unique test cases"
+    },
+    "Precision": {
+      "label": "Precision"
+    },
+    "Recall": {
+      "label": "Recall"
+    },
+    "FScore": {
+      "label": "F-Score"
+    },
+    "ClassPrecision": {
+      "label": "Classification Precision"
+    },
+    "ClassRecall": {
+      "label": "Classification Recall"
+    },
+    "ClassFScore": {
+      "label": "Classification F-Score"
+    },
+    "Overlap": {
+      "label": "Number of overlapping faults"
+    },
+    "NumMultipleFaults": {
+      "label": "Number of test cases containing multiple faults"
+    },
+    "PctMultipleFaults": {
+      "label": "Percentage of test cases containing multiple faults"
+    },
+    "NumInvalidTests": {
+      "label": "Number of test cases which are forbidden by a constraint"
+    },
+    "PctInvalidTests": {
+      "label": "Percentage of test cases which are forbidden by a constraint"
+    },
+    "SuperPrecision": {
+      "label": "Precision including super-combinations"
+    }
+  },
+  "filters": [
+    "NumberOfParameters",
+    "NumberOfFaults",
+    "Strength"
+  ],
+  "baseline": {
+    "algorithm": "Ipog",
+    "columns": {
+      "NumberOfTestCases": {
+        "label": "Overhead Test Cases"
+      },
+      "NumberOfUniqueTestCases": {
+        "label": "Overhead Unique Test Cases"
+      },
+      "ExecutionTime": {
+        "label": "Overhead Execution Time"
+      }
+    }
+
+  }
+}
